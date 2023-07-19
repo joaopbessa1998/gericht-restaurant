@@ -1,11 +1,10 @@
 import React from 'react';
-
+import { images, data } from "../../constants"
+import { SubHeading, MenuItem } from "../../components"
 import './Laurels.css';
 
-const Laurels = () => (
-  <div>
-    Laurels
-  </div>
-);
-
-export default Laurels;
+export default function Laurels() {
+  return (
+    <div className='app__bg app__wrapper section__padding'></div>
+  )
+}
